@@ -255,9 +255,8 @@ main > section {
 .map-link {
   display: inline-flex;
   align-items: center;
-  min-height: 44px;
-  padding: 10px 0;
-  margin-top: 12px;
+  padding: 2px 0;
+  margin-top: 16px;
   color: var(--color-accent);
   font-size: 13px;
   transition: color 0.15s ease;
@@ -306,16 +305,13 @@ a:focus-visible, button:focus-visible {
 
 .store-sns {
   display: flex;
-  gap: 8px;
-  margin-top: 4px;
+  gap: 16px;
+  margin-top: 14px;
 }
 
 .store-sns a {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  min-width: 44px;
-  min-height: 44px;
   color: var(--color-text-sub);
   transition: color 0.15s ease;
 }
@@ -325,7 +321,7 @@ a:focus-visible, button:focus-visible {
 }
 
 .store-sns a svg {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
 }
 
