@@ -300,20 +300,32 @@ a:focus-visible, button:focus-visible {
   border-radius: 4px;
 }
 
-.store-card-link {
-  display: block;
-  color: inherit;
-  text-decoration: none;
+.store-card-body {
   padding: 20px 24px;
-  min-height: 100%;
-  transition: background 0.15s ease;
 }
 
-.store-card-link:hover {
-  background: rgba(200, 169, 106, 0.06);
+.store-sns {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
 }
 
-.store-card-link:hover .map-link {
-  color: var(--color-accent-hover);
+.store-sns a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  color: var(--color-text-sub);
+  transition: color 0.15s ease;
+}
+
+.store-sns a:hover {
+  color: var(--color-accent);
+}
+
+.store-sns a svg {
+  width: 20px;
+  height: 20px;
 }
 
